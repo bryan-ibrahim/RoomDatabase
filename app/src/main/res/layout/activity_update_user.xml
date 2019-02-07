@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="rassy.com.roomdatabasepractice.UpdateUserActivity">
+
+    <EditText
+        android:id="@+id/etIdToUpdate"
+        android:layout_width="match_parent"
+        android:hint="@string/id"
+        android:inputType="number"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etFirstNameUpdate"
+        android:layout_width="match_parent"
+        android:hint="FIrst Name"
+        android:inputType="text"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etLastNameUpdate"
+        android:layout_width="match_parent"
+        android:hint="Last Name"
+        android:inputType="text"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etEmailUpdate"
+        android:layout_width="match_parent"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update User"
+        android:onClick="updateUser"/>
+
+</LinearLayout>

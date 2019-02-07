@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RoomDatabase Practice</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="id">id</string>
+    <string name="delete_user">Delete User</string>
+</resources>
